@@ -99,6 +99,7 @@ allEqual4 a b c d = a == b && b == c && c == d
 biggestGroup :: GroupedRanks -> Int
 biggestGroup (FourOneGroup _ _) = 4
 biggestGroup (ThreeTwoGroup _ _) = 3
+biggestGroup (ThreeOneOneGroup _ _ _) = 3
 biggestGroup (TwoTwoOneGroup _ _ _) = 2
 biggestGroup (TwoOneOneOneGroup _ _ _ _) = 2
 biggestGroup (OneOneOneOneOneGroup _ _ _ _ _) = 1
