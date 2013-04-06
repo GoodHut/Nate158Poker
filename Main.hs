@@ -6,7 +6,7 @@ import Hand (Category(..),Hand(..),mkHand)
 import Choose (combinations)
 
 import SimpleEvaluator (NaiveEvaluator(..), naiveEvaluator)
-import CactusKevEvaluator (CactusKev(..), cactusKevEvaluator)
+import CactusKevEvaluator (cactusKevEvaluator)
 import HandEvaluator (Evaluator(..))
 
 import Data.Map (Map)

@@ -11,7 +11,6 @@ import Hand (
   biggestValue,
   secondBiggestValue,
   thirdBiggestValue,
-  isThreeTwoGroup,
   isThreeOneOneGroup,
   isTwoTwoOneGroup,
   isTwoOneOneOneGroup,

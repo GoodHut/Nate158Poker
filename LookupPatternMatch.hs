@@ -4,12 +4,8 @@ module LookupPatternMatch (
     getValueFromProduct
   ) where
 
-import Data.Word (Word16)
 import qualified Data.Vector.Unboxed as V
 
-import Data.Maybe (fromJust)
-
-type VWord16 = V.Vector Word16
 type VInt = V.Vector Int
 
 lookupFlushes :: Int -> Int
